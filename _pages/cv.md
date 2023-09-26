@@ -8,33 +8,26 @@ redirect_from:
 ---
 
 {% include base_path %}
+[Download CV here](http://JasonH0810.github.io/files/cv.pdf)
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* BEng in Lanzhou University, 2017-2021
+* MSc in University of Edinburgh, 2022-2023
+
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 01 2022 - 07 2022: Research Intern
+  * NSFOCUS, Threat Intellgence lab
+  * Duties included: Participated in the company’s IPv6 probing direction research project, which focuses on predicting the structure of active IPv6 addresses. Throughout the project, I participated in the analysis of the composition structure of IPv6 ad- dresses and conducted research on the corresponding generation algorithms according to different generation methods of IPv6 addresses.
+  * Supervisor: Mr.Shengyong Yang
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Summer 2021: Intern
+  * Lanzhou University
+  * Duties included: Assisted with the construction, test, operation and maintenance of the Jump Server, learned to build a Jump Server from scratch, analyzed the logic of some source code in the test process Monitored the traffic, report risky behaviors, and trace the attacks as the de- fensive side in the network protection action of Lanzhou City; enriched knowl- edge about network attack and defense.
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+  
 
 Publications
 ======
@@ -56,4 +49,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+
