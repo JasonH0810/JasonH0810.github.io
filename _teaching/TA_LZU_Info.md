@@ -7,7 +7,11 @@ venue: "Lanzhou University, School of Information Science & Engineering"
 date: 2020-06-01
 location: "Lanzhou, China"
 ---
+Summer school of LZU Informatics
 
+
+Work description
+======
 Responsible for addressing students’ questions during laboratory sessions, fo- cusing primarily on topics such as data structures and C language program- ming. Additionally, responsible for grading students’ coursework, designing and grading final exam papers, and invigilating during final exams.
 
 
