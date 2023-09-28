@@ -28,3 +28,7 @@ I am about to graduate with a master's degree in Cyber security, privacy and tru
 
 My current research focuses on the intersection of security and machine learning, especially in the security aspects of machine learning models themselves. 
 
+
+## News
+
+- Bye～ CS：GO
