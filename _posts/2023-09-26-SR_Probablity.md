@@ -74,3 +74,50 @@ Lecture 2 Conditioning and Bayes' Rule
 
 [Lecture Record](https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/resources/lecture-2-conditioning-and-bayes-rule/)
 [Recitation](https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/resources/mit6_041f10_rec02/)
+
+
+Lecture 3 Independence
+------
+
+- Independence of two event
+
+  "Defn:" $ P(B \mid A) = P(B)$ or occurence of A provides no information about B's occurence
+
+  "Defn:" $ P(A \cap B ) = P(A) * P(B)$
+
+  Symmetric with respect to A and B
+
+  (Venn diagram is never enough to decide independence)
+
+  Conditioning may affect independence
+
+- Independence of a collaction of events
+
+    $$P(A_i \cap A_j \cap ... \cap A_q) = P(A_i)P(A_j)...P(A_q) $$
+
+    for any distinct indices i,j,...,q(chosen from 1-n)
+
+    Pairwise independence does not imply independece
+
+
+[Lecture record](https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/resources/lecture-3-independence/)
+[Recitation](https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/resources/mit6_041f10_rec03/)
+
+
+Lecture 4 Counting
+------
+
+- Principles of counting
+
+  r stages, $n_i$ choices at stage i, then the number of choices is $n_1 n_2 n_3 ... n_r$
+
+  permutations: Number of ways of ordering n element: n(n-1)(n-2)...1 = n!
+
+  Combinations: Number of k-element subsets of a given n-element set: $\tbinom{n}{k}=\frac{n!}{k!(n-k)!}$
+
+- Binomial Probabilities:
+
+  $$ P(k heads) = \tbinom{n}{k}p^k (1-p)^{n-k}$$
+
+[Lecture record](https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/resources/lecture-4-counting/)
+[Recitation](https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/resources/mit6_041f10_rec04/)
