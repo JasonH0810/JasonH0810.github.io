@@ -205,3 +205,62 @@ Lecture 6 Discrete Random Variables 2
 
 [Lecture record](https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/resources/lecture-6-discrete-random-variable-examples-joint-pmfs/)
 [Recitation](https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/resources/mit6_041f10_rec06/)
+
+
+
+Lecture 7 Discrete Random Variables 3
+------
+- Independent random variables
+  
+  $p_{X,Y,Z}(x,y,z) = p_X(x)p_{Y \mid X}(y \mid x)p_{Z \mid X,Y}(z \mid x,y)$
+  - Random variables X,Y,Z are independent if: $p_{X,Y,Z}(x,y,z)=p_X(x)p_Y(y)p_Z(z)$ for all x,y,z
+
+- Expectation
+  - $ E(g(X,Y))=\sum\limits_x\sum\limits_y g(x,y)p_{X,Y}(x,y) $
+  - $E[X+Y+Z] = E[X] + E[Y] + E[Z]$
+  - if X,Y are independent:
+    - $ E[XY]=E[X]E[Y] $
+    - $ E[g(X)h(Y)] = E[g(X)]E[h(Y)] $
+
+- Variances
+  - $ Var(\alpha X) = \alpha^2 Var(X) $
+  - $ Var(X+\alpha) = Var(X) $
+  - If X,Y are independent:
+    - $ Var(X+Y) = Var(X)+Var(Y) $
+
+- Binomial mean and variance
+ - with probability of success p:
+  - $ E[X]=\sum\limits_{k=0}\limits^n k\tbinom{n}{k}p^k(1-p)^{n-k} $
+  - $ E[X_i] = p $
+  - $ E[X] = np $
+  - $ Var(X_i) =  E[x_i^2] - E[x_i]^2 = p(1-p)$
+  - $ Var(X) = np(1-p) $
+
+ 
+[Lecture record](https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/resources/lecture-7-multiple-variables-expectations-independence/)
+[Recitation](https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/resources/mit6_041f10_rec07/)
+
+
+Lecture 8 Continuous Random Variables
+------
+- A Continuous r.v. is described by a probability density function $f_X$
+  - $$ P(a \leq X \leq b) =  \lmoustache_a^b f_X(x)dx $$
+  - $$   \lmoustache_{-\infty}^{\infty} f_X(x)dx = 1 $$
+
+- Means and Variances
+  - $ E[X] =  \lmoustache_{-\infty}^{\infty} xf_X(x)dx $
+  - $ E[g(X)] =  \lmoustache_{-\infty}^{\infty} g(x)f_X(x)dx $
+  - $  var(X) =  \lmoustache_{-\infty}^{\infty}(x-E[X])^2 f_X(x)dx $
+
+
+- Cumulative distribution function
+  - $ F_X(x) = P(X \leq x ) =  \lmoustache_{-\infty}^{x} f_X(t)dt $
+
+- Gaussian PDF
+  - standard normal N(0,1): $ f_X(x) = \frac{1}{\sqrt{2\pi} }e^{\frac{-x^2}{2}}   $
+  - General normal $ N(\mu,\sigma):  f_X(x) =  \frac{1}{\sigma\sqrt{2\pi} }e^{\frac{-(x-\mu)^2}{2\sigma^2}} $
+  - $ E[X] = \mu, Var(X) = \sigma^2 $
+  - If $ Y = aX+b \to  Y\sim N(a\mu+b, a^2\sigma^2)$
+
+[Lecture record](https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/resources/lecture-8-continuous-random-variables/)
+[Recitation](https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/resources/mit6_041f10_rec08/)

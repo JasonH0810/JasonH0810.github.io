@@ -31,4 +31,4 @@ My current research focuses on the intersection of security and machine learning
 
 ## News
 
-- Bye～ CS：GO
+
