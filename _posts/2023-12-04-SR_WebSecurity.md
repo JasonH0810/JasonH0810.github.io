@@ -1,6 +1,6 @@
 ---
 title: '[Studying record] Web Security'
-date: 2023-12-01
+date: 2023-12-04
 permalink: /posts/2023/12/SR_Web Security/
 tags:
   - Web Security
