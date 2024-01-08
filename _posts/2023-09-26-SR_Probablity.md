@@ -29,7 +29,7 @@ Lecture 1 Introduction
     - Countably infinite sample space:
       - Countable additivity axiom:
         If $A_1,A_2$,... are disjoint events, then:
-        $$P(A_1 \cup A_2 \cup ...) = P(A_1) + P(A_2) +...$$
+        $P(A_1 \cup A_2 \cup ...) = P(A_1) + P(A_2) +...$
 
 - Axioms of probability
   - **Event** : a subset of the sample space
@@ -55,21 +55,21 @@ Lecture 2 Conditioning and Bayes' Rule
 - Three important tools:
   - Multiplication rule:
 
-    $$P(A \cup B \cup C) = P(A) · P(B | A) · P(C | A \cup B )$$
+    $P(A \cup B \cup C) = P(A) · P(B | A) · P(C | A \cup B )$
 
 
   - Total probability theorem:
 
-    $$P(B) = P(A_1)P(B | A_1) + P(A_2)P(B | A_2) + P(A_3)P(B | A_3)$$
+    $P(B) = P(A_1)P(B | A_1) + P(A_2)P(B | A_2) + P(A_3)P(B | A_3)$
 
 
   - Bayes' rule:
 
-    $$P(A_i | B) = \frac{P(A_i \cup B)}{P(B)}$$
+    $P(A_i | B) = \frac{P(A_i \cup B)}{P(B)}$
 
-    $$= \frac{P(A_i)P(B | A_i)}{P(B)}$$
+    $= \frac{P(A_i)P(B | A_i)}{P(B)}$
 
-    $$= \frac{P(A_i)P(B | A_i)}{\Sigma_j P(A_j)P(B | A_j)}$$
+    $= \frac{P(A_i)P(B | A_i)}{\Sigma_j P(A_j)P(B | A_j)}$
 
 
 [Lecture Record](https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/resources/lecture-2-conditioning-and-bayes-rule/)
@@ -93,7 +93,7 @@ Lecture 3 Independence
 
 - Independence of a collaction of events
 
-    $$P(A_i \cap A_j \cap ... \cap A_q) = P(A_i)P(A_j)...P(A_q) $$
+    $P(A_i \cap A_j \cap ... \cap A_q) = P(A_i)P(A_j)...P(A_q) $
 
     for any distinct indices i,j,...,q(chosen from 1-n)
 
@@ -117,7 +117,7 @@ Lecture 4 Counting
 
 - Binomial Probabilities:
 
-  $$ P(k heads) = \tbinom{n}{k}p^k (1-p)^{n-k}$$
+  $ P(k heads) = \tbinom{n}{k}p^k (1-p)^{n-k}$
 
 [Lecture record](https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/resources/lecture-4-counting/)
 [Recitation](https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/resources/mit6_041f10_rec04/)
@@ -244,8 +244,8 @@ Lecture 7 Discrete Random Variables 3
 Lecture 8 Continuous Random Variables
 ------
 - A Continuous r.v. is described by a probability density function $f_X$
-  - $$ P(a \leq X \leq b) =  \lmoustache_a^b f_X(x)dx $$
-  - $$   \lmoustache_{-\infty}^{\infty} f_X(x)dx = 1 $$
+  - $ P(a \leq X \leq b) =  \lmoustache_a^b f_X(x)dx $
+  - $   \lmoustache_{-\infty}^{\infty} f_X(x)dx = 1 $
 
 - Means and Variances
   - $ E[X] =  \lmoustache_{-\infty}^{\infty} xf_X(x)dx $
